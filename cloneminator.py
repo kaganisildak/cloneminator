@@ -1,10 +1,10 @@
 import requests
 import json
 
-github_username = ""
-github_token = ""
-gitlab_url = ""
-gitlab_token = ""
+github_username = str()
+github_token = str()
+gitlab_url = str()
+gitlab_token = str()
 
 
 def get_stars(page=0):
